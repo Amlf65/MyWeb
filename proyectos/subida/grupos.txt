@@ -1,0 +1,7 @@
+A;Grupo A;
+A2;Grupo A2;
+CM;Grupo CM;
+H;Grupo H;
+N;Grupo N;
+TA;Grupo TA;
+TN;Grupo TN;

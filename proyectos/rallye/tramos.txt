@@ -1,0 +1,9 @@
+1;La Atalaya - Higuera Canaria;7,500;101,05;0;69;82;3;
+2;Tenteniguada - San Mateo;6,300;97,51;0;77;77;2;
+3;Los Silos - Santa Brigida;8,300;89,51;0;68;77;2;
+4;La Atalaya - Higuera Canaria;7,500;101,05;0;67;68;2;
+5;Tenteniguada - San Mateo;6,300;97,51;0;64;65;2;
+6;Los Silos - Santa Brigida;8,300;89,51;1;62;64;2;
+7;La Atalaya - Higuera Canaria;7,500;101,05;1;59;63;2;
+8;Tenteniguada - San Mateo;6,300;97,51;0;58;58;2;
+9;Los Silos - Santa Brigida;8,300;89,51;0;56;58;2;

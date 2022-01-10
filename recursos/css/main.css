@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    background-image: url("../img/mapa_mundi_fondo.svg");
+    background-position: center center;
+    background-size:60%;
+    background-repeat:no-repeat;
+    background-attachment:  fixed;
+    
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(179, 174, 174, 0.329);
+    }
+
+.navbar {
+    /* background-color: transparent !important; */
+    background-color: rgba(179, 174, 174, 0.329);
+}
+
+.clrfondomenu{
+    background-color: #e3f2fd;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-size:80%;
+    }
+    footer p {
+        font-size: .6em;
+    }
+    .card-header span{
+        font-size: 1.5em;
+    }
+    
+}

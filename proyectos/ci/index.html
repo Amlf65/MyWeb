@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Clinicas Iguazú</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--    <link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.min.css">-->
+    <!--    <link rel="stylesheet" type="text/css" href="iguazu.css">-->
+    <style>
+        body{
+            background: linear-gradient(to bottom, rgba(149,149,149,1) 0%,rgba(78,78,78,1) 17%,rgba(149,149,149,1) 49%,rgba(78,78,78,1) 88%,rgba(56,56,56,1) 94%,rgba(27,27,27,1) 100%);
+            }
+
+        aside{
+                background: linear-gradient(to bottom, rgba(209,29,60,1) 0%,rgba(149,14,41,1) 100%);
+                border-radius:10px 10px 0px 0px;
+            }
+        footer{
+                background: linear-gradient(to bottom, rgba(46,46,46,1) 0%,rgba(27,27,27,1) 100%);
+            }
+        article{
+                border-radius:0px 0px 10px 10px;
+                background-color: antiquewhite;
+            }
+
+        .altologin{
+                height:16px;
+            }
+
+        .sombra{
+                 box-shadow: 3px 3px #BBBBBB;
+            }
+        .margensup{
+             margin-top: 10px;
+            }
+        .tamamenu{
+             font-size:16px;   
+            }
+        @media (min-width: 767px) {
+            .margensup {
+                margin-top: 0;
+            }
+            .tamamenu{
+                font-size:  9px;
+                }
+        }
+        @media (min-width: 992px){
+              .tamamenu{
+                font-size:  14px;
+                }   
+        }
+        @media (min-width: 1200px){
+              .tamamenu{
+                font-size:  18px;
+                }   
+        }
+    </style>
+
+</head>
+
+<body class="container">
+    <aside class="container p-3 mt-3  ">
+
+        <div class="row">
+            <img class="col-12 offset-md-1 col-md-5 img-responsive w-100 rounded" src="img/iguazu.png" alt="Clínicas Iguazú">
+            <div class=" col-12 offset-md-1 col-md-5">
+                <div class="row">
+                    <div class="col-12 btn-group margensup justify-content-center">
+                        <a href="#1"><img class="btn btn-default" src="img/es.png" alt="Español"></a>
+                        <a href="#2"><img class="btn btn-default" src="img/uk.png" alt="Inglés"> </a>
+                        <a href="#3"><img class="btn btn-default" src="img/de.png" alt="Alemán"> </a>
+                        <a href="#4"><img class="btn btn-default" src="img/sw.png" alt="Sueco"> </a>
+                        <a href="#5"><img class="btn btn-default" src="img/fi.png" alt="Finlandés"> </a>
+                    </div>
+                </div>
+
+                <!--  <form class="form-horizontal text-white mt-3">
+                  <div class="row justify-content-center form-group ">
+                    <label class="control-label col-md-4" for="email">Email:</label>
+                    <div class="col-md-8">
+                      <input type="email" class="form-control" id="email" placeholder="Enter email">
+                    </div>
+                  </div>
+                  <div class=" row justify-content-center form-group ">
+                    <label class="control-label col-md-4" for="pwd">Password:</label>
+                    <div class="col-md-8"> 
+                      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                    </div>
+                  </div>
+                  <div class="row justify-content-center form-group ">
+                      <button type="button" class="col-10 btn" id="enviar">Entrar</button>
+                  </div>
+                </form> -->
+
+            </div>
+        </div>
+        <!--<div class="input-group col-8 offset-md-4 col-md-4 my-auto py-2">
+                <div class="input-group-prepend ">
+                  <span class="input-group-text" id="inputGroupPrepend">Usuario</span>
+                </div>
+                <input type="text" class="form-control " id="user" placeholder="Usuario" aria-describedby="inputGroupPrepend" required>
+             </div>
+            <div class="d-none d-md-block col-md-4 mt-2">
+                <h5 class="text-light text-center"><i>TU SALUD ES LO PRIMERO</i></h5>
+            </div>
+             <div class="input-group col-8 offset-md-4 col-md-4 my-auto">
+                 <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroupPrepend">Contraseña</span>
+                </div>
+                <input type="text" class="form-control " id="pass" placeholder="Clave" aria-describedby="inputGroupPrepend" required>
+            </div>
+         </div>
+        <div class="row justify-content-center">
+            <div class="input-group col-4 offset-md-10 col-md-2  mt-2">
+                <input type="button" class="form-control " id="acceso" value="Acceder" >
+            </div>
+
+        </div>-->
+
+    </aside>
+    <section class="container bg-dark ">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link tamamenu" href="#01">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link tamamenu" href="#02">¿QUIENES SOMOS?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link tamamenu" href="#03">SERVICIOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link tamamenu" href="#04">UBICACION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link tamamenu" href="#05">SEGURO FAMILIAR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link tamamenu" href="#06">TRABAJE CON NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link tamamenu" href="#07">CONTACTO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link tamamenu" href="#08">ACCESO</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </section>
+    <article class="container ">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="row mt-5">
+                    <p class="h5 col-12 text-center">Centro Médico de urgencias y</p>
+                    <p class="h5 col-12 text-center">Especialidades médicas</p>
+                    <p class="h4 col-12 text-center text-danger">SERVICIO 24 HORAS</p>
+                </div>
+                <div class="row justify-content-center mt-5">
+                    <div class="d-none d-md-block col-md-2">
+                        <img class="img-thumbnail w-100" src="img/dkv.png" alt="DKV">
+                    </div>
+                    <div class="d-none d-md-block col-md-2">
+                        <img class="img-thumbnail w-100" src="img/generali.png" alt="DKV">
+                    </div>
+                    <div class="d-none d-md-block col-md-2">
+                        <img class="img-thumbnail w-100" src="img/previservice.png" alt="DKV">
+                    </div>
+                    <div class="d-none d-md-block col-md-2">
+                        <img class="img-flthumbnailuid w-100" src="img/atocha.png" alt="DKV">
+                    </div>
+                    <div class="d-none d-md-block col-md-2">
+                        <img class="img-thumbnail w-100" src="img/arag.png" alt="DKV">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md-6">
+                <img class="img-fluid w-100" src="img/24%20horas.png" alt="Clínicas Iguazú">
+            </div>
+        </div>
+
+        <div class="row my-3">
+            <div class="col-12 col-md-4 ">
+                <div class="p-3 bg-light sombra">
+                    <p class="h5 col-12 border-bottom">es-Noticias</p>
+                    <div>
+                        <p class="h6 col-12 text-danger"><u>Nuevo Servicio</u></p>
+                        <p class="small col-12 ">03.03.2015 13:43</p>
+                        <p class="h6 col-12 text-justify">Clínica Iguazú quiere darle la bienvenvida a un nuevo servicio, contamos con Entrenadora Personal en nuestro centro para todos nuestros pacientes y todos aquellos que necesiten mejorar su condición física, siempre siguiendo las recomendaciones médicas que su situacíón requiera. Es hora de ponerse...</p>
+                        <p class="small col-12 text-right text-danger">Leer más..</p>
+                    </div>
+                    <div>
+                        <p class="h6 col-12 text-danger"><u>Bajar de peso después del embarazo</u></p>
+                        <p class="small col-12 ">03.04.2014 14:44 </p>
+                        <p class="h6 col-12 text-justify">Para usar las funciones de compartir de esta páginas, por favor, habilite JavaScript. Enviar esta página a un amigoUsted debe planear para volver a su peso anterior al embarazo hacia los 6 meses después del parto. La mayoría de las mujeres pierden la mitad del peso del bebé hacia las 6..</p>
+                        <p class="small col-12 text-right text-danger">Leer más..</p>
+                    </div>
+                    <div>
+                        <p class="h6 col-12 text-danger"><u>La endometriosis, una enfermedad autoinmune y desconocida</u></p>
+                        <p class="small col-12 ">01.04.2014 17:43 </p>
+                        <p class="h6 col-12 text-justify">La endometriosis es una de las enfermedades ginecológicas más comunes cuyos dos síntomas más frecuentes son dolor e infertilidad. La endometriosis también se caracteriza por cólicos y menstruaciones muy dolorosas y abundantes, dolor crónico en la pelvis que incluye la parte inferior de la espalda,..</p>
+                        <p class="small col-12 text-right text-danger">Leer más..</p>
+                    </div>
+                    <div>
+                        <p class="h6 col-12 text-danger"><u>Importancia de la autoexploración mamaria</u></p>
+                        <p class="small col-12 ">01.04.2014 14:11</p>
+                        <p class="h6 col-12 text-justify">La autoexploración mamaria es fundamental para detectar cualquier anomalía o cambio que se produzca en la los pechos de la mujer. Es especialmente importante de cara a la detección precoz de un posible cáncer de mama, aunque los bultos que se puedan detectar no tienen por qué ser malignos, como es...</p>
+                        <p class="small col-12 text-right text-danger">Leer más..</p>
+                    </div>
+                    <div>
+                        <p class="h6 col-12 text-danger"><u>La importancia de lavarse las manos</u></p>
+                        <p class="small col-12 ">31.03.2014 12:47</p>
+                        <p class="h6 col-12 text-justify">Entendido como uno de los métodos de higiene más básicos e importantes, el lavado de manos es un simple acto que no toma más de cinco minutos y que nos puede prevenir en numerosas ocasiones de la presencia de virus, bacterias y enfermedades que se transmiten a través del contacto de diversas...</p>
+                        <p class="small col-12 text-right text-danger">Leer más..</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 col-md-4 ">
+                <div class="p-3 bg-light sombra">
+                    <p class="h5 col-12  border-bottom">Gracias por consultar Clínica Iguazú</p>
+                    <p class="h6 text-justify ">Su salud y su confianza son lo más importante para nosotros. Nuestro compromiso es ofecerle un servicio médico de alta calidad.</p>
+                    <p class="h6 text-justify ">Contamos con la experiencia, recursos y tecnología necesaria para atenderle como usted se merece. Nuestros equipo sanitario está formado por personas dedicadas a su bienestar, y altamente cualificadas para tratar patologías crónicas, traumas de diferentes tipos, y toda clase de diagnóstico.</p>
+                    <p class="h6 text-justify ">Antes de recomendar un tratamiento, realizamos un análisis riguroso de cada uno de nuestros pacientes, su condición física, posibles traumas y el estado emocional que en algunas ocasiones puede estar relacionado con los padecimientos diagnosticados.</p>
+                    <p class="h6 text-justify ">Le invitamos a conocer más sobre nuestros servicios médicos en nuestro sitio web. Contáctenos para ofrecerle la atención adecuada.</p>
+                </div>
+            </div>
+            <div class=" col-12 col-md-4 ">
+                <div class="p-3 bg-light sombra">
+                    <p class="h5 col-12  border-bottom">Nuevo Seguro Familiar</p>
+                    <a href="#" class="h5 col-12 text-danger text-center">¡¡Infórmate sin compromiso!!</a>
+                    <img class="col-12 mt-3 mx-auto" src="img/segurofamiliar.png" alt="Seguro Familiar">
+                </div>
+            </div>
+        </div>
+        <div>&nbsp;</div>
+    </article>
+
+    <footer class="container mt-2 ">
+        <div class="row text-light justify-content-between">
+            <h3 class="col-6 small">© 2014 Todos los derechos reservados</h3>
+            <h3 class="col-3 text-right small">Clínicas Iguazú</h3>
+        </div>
+    </footer>
+    <!--<script src="Bootstrap/js/jquery-1.12.4.min.js"></script>
+    <script src="Bootstrap/js/popper.min.js"></script>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>
